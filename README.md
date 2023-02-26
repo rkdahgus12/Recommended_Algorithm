@@ -45,6 +45,17 @@ Collaborative Filtering, Opencv Test
 - image_processing.py 안에 찍어놓은 메인 부분 사진의 rgb의 포함 형태를 histogram으로 표현 해주면서 얼만큼의 비중을 차지 하고 있으며, 
 3번째 중 가장 많이 비중을 차지한 rgb 색깔을 판단하여 약 9색의 메인 색 안에 Find 하게끔 하였음.
 - haversine에 따라 현 거리 기준으로 더미셋에 해당하는 정보에 따라 추천 해주는 방식
+
 ---
+## 이미지 프로세싱 및 유사도 비교(ORB, KAZE, AKAZE)
+
+- Opencv.py
+- 실행 목적: 음식에 대한 컨텐츠 기획으로 색깔별로 구별할 수 있는 분류화를 시키고 호불호를 확인하기 위한 알고리즘 구현
+- histogram으로 표현하여 음식에 대한 색깔 함류를 분석했을 때, 문제점: 만약 겉과 그릇의 부분을 제외를 제대로 하지 못하면 비율에 대한 문제점이 생김.
+
+
+![캡처](https://user-images.githubusercontent.com/71003685/221399377-2de56b65-e302-448d-8c91-e991fab54e76.PNG)
+
+
 
 
